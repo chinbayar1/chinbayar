@@ -1,0 +1,22 @@
+div {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+}
+.blue {
+  background-color: blue;
+  transition: 0.5s all linear;
+}
+.green {
+  background-color: green;
+  transition: 0.5s all linear;
+}
+
+.green:hover {
+  width: 100%;
+  transition: 0.5s all linear;
+}
+.blue:active {
+  width: 100%;
+  transition: 0.5s all linear;
+}
